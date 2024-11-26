@@ -32,9 +32,9 @@ const Header = () => {
   return (
     <>
       <nav className="py-4 flex justify-between items-center">
-        <Link to="/">
+        {/* <Link to="/">
           <img src="/logo.png" className="h-20" alt="Hirrd Logo" />
-        </Link>
+        </Link> */}
 
         <div className="flex gap-8">
           <SignedOut>
